@@ -1,0 +1,42 @@
+.calc {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    left: 40%;
+    top: 30%;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(157, 167, 206);
+    border: 5px solid dimgray;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+button {
+    position: relative;
+    top: 50%;
+    background-color: var(--button-bg);
+    border-radius: 2px;
+    color: var(--font-color);
+    font-size: 17px;
+}
+
+.Operation_items {
+    position: relative;
+    top: 50%;
+    left: 37%;
+
+}
+
+.Input_counter {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    background-color: var(--background-color);
+    color: var(--font-colors);
+    font-size: 20px;
+
+}

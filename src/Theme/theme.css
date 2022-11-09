@@ -1,0 +1,38 @@
+body {
+  transition: all .3s ease;
+  background-color: var(--background-color2);
+}
+
+:root {
+  --button-bg-color-theme1: rgb(97, 153, 209);
+  --background-color2-theme1: rgb(161, 146, 129);
+  --font-colors-theme1: rgb(94, 255, 0);
+  --background-color-theme1: rgb(173, 110, 63);
+  --font-color-theme1: #ffffff;
+
+  --button-bg-color-theme2: rgb(102, 112, 171);
+  --background-color2-theme2: rgb(75, 71, 71);
+  --font-colors-theme2: rgb(195, 32, 32);
+  --background-color-theme2: #89d28a;
+  --font-color-theme2: #ffffff;
+
+  --font-size-title: 16px;
+  --font-size-subtitle: 12px;
+
+  --background-color2: var(--background-color2-theme1);
+  --background-color: var(--background-color-theme1);
+  --font-colors: var(--font-colors-theme1);
+  --font-color: var(--font-color-theme1);
+  --button-bg: var(--button-bg-color-theme1);
+}
+
+.made {
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 90%;
+}
+
+h3 {
+  color: var(--font-colors);
+}
